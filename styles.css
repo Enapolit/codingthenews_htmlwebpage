@@ -1,0 +1,81 @@
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+/* to reduce size of text with and above the icons */
+html, body {
+  font-size: 14px;
+}
+/* to make the headline noticeably bigger than the copy */
+h1 {
+  font-size: 2.5em;
+  margin: 10px;
+}
+
+/* replaces p2 and p2 tags */
+p {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+img {
+  width: 140%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-color: rgba(0, 128, 0, 0.6) */
+}
+
+.icon, .text{
+  padding: 10px;
+  margin-bottom: 10px;
+  /* border: 1px solid #FFF; */
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+
+img {
+ max-width: 1600px;
+  height: 400px;
+}
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+
+
+}
